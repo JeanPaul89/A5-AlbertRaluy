@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1 {
+    text-align: center;
+    color: turquoise;
+    text-decoration: underline;
+}
+
+#primero {
+    background-color: aqua;
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+    border: solid blue 3px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: left;
+    background-color: turquoise;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+#segundo {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.img2 {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 3px;
+    height: 400px;
+}
+
+#editor {
+    text-align: center;
+    color: blue;
+    padding: 14px;
+}
+
+@media only screen and (max-width: 800px) {
+    /* reglas */
+    #header h1 {
+        padding: 0 1%;
+        font-size: 40px;
+    }
+    #main {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #main p {
+        font-size: 16px;
+    }
+    #main h1 {
+        font-size: 35px;
+    }
+}
